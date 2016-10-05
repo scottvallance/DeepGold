@@ -1,0 +1,63 @@
+spark logistic:
+
+Training Accuracy = 1.0                                                         
+Test Accuracy = 0.767756482525                                                  
+Gold Recall = 0.324840764331                                                    
+Gold Precision = 0.337748344371                                                 
+Non-Gold Recall = 0.86301369863                                                 
+Non-Gold Precision = 0.85597826087                                              
+Gold Kappa = 0.190714937418                                                     
+51 106                                                                          
+100 630 
+
+
+spark svm:
+
+Training Accuracy = 0.658597662771                                              
+Test Accuracy = 0.808342728298                                                  
+Gold Recall = 0.235668789809                                                    
+Gold Precision = 0.425287356322                                                 
+Non-Gold Recall = 0.931506849315                                                
+Non-Gold Precision = 0.85                                                       
+Gold Kappa = 0.202633387975                                                     
+37 120                                                                          
+50 680 
+
+
+naive bayes:
+
+Training Accuracy = 0.63244296049                                               
+Test Accuracy = 0.616685456595                                                  
+Gold Recall = 0.68152866242                                                     
+Gold Precision = 0.269521410579                                                 
+Non-Gold Recall = 0.602739726027                                                
+Non-Gold Precision = 0.897959183673                                             
+Gold Kappa = 0.177673556198                                                     
+107 50                                                                          
+290 440   
+
+
+random forest: (10 trees)
+
+Training Accuracy = 0.850755                                                    
+Test Accuracy = 0.727171                                                        
+Gold Recall: 0.575163398693                                                     
+Gold Precision: 0.328358208955                                                  
+Non-Gold Recall: 0.758389261745                                                 
+Non-Gold Precision: 0.896825396825                                              
+Gold Kappa = 0.25684850532                                                      
+88 65                                                                           
+180 565  
+
+
+mlpc: layers = [2048, 512, 2]
+
+Training Accuracy = 1                                                           
+Test Accuracy = 0.775255                                                        
+Gold Recall: 0.317880794702                                                     
+Gold Precision: 0.335664335664                                                  
+Non-Gold Recall: 0.869863013699                                                 
+Non-Gold Precision: 0.860433604336                                              
+Gold Kappa = 0.191773078563                                                     
+48 103                                                                          
+95 635 
